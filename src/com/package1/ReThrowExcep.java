@@ -5,7 +5,7 @@ public class ReThrowExcep {
 	// Method "someMethod2" throwing Null Pointer Exception
 	static void someMethod2() {
 		String s=null;
-		s.length();
+		System.out.println(s.length());
 	}
 
 	// Method calling above "someMethod2" method
